@@ -69,19 +69,20 @@ export default function Intro() {
             </Link>
             <a className='group bg-white flex px-7 py-3 
             items-center gap-2 rounded-full outline-none focus:scale-110
-            hover:scale-110 cursor-pointer active:scale-105 transition borderBlack'
+            hover:scale-110 cursor-pointer active:scale-105 transition borderBlack
+            dark:bg-white/10'
             href='/CV.pdf' download>
                 Download CV{" "}<HiDownload className='opacity-70 group-hover:translate-y-1'/>
             </a>
             <a className='bg-white flex p-4 text-gray-700
             items-center gap-2 rounded-full focus:scale-[1.15]
-            hover:scale-[1.15] hover:text-gray-950 cursor-pointer active:scale-105 transition borderBlack'
+            hover:scale-[1.15] hover:text-gray-950 cursor-pointer active:scale-105 transition borderBlack dark:text-white/60 dark:bg-white/10'
             href='https://www.linkedin.com/in/steven-jacobs-9b99a4a9/'>
                 <BsLinkedin/>
             </a>
             <a className='bg-white flex p-4 text-gray-700
             items-center gap-2 rounded-full text-[1.35rem] focus:scale-[1.15]
-            hover:scale-[1.15] hover:text-gray-950 cursor-pointer active:scale-105 transition borderBlack'
+            hover:scale-[1.15] hover:text-gray-950 cursor-pointer active:scale-105 transition borderBlack dark:text-white/60 dark:bg-white/10'
             href='https://github.com/StevenJacobs61'>
                 <FaGithubSquare/>
             </a>
