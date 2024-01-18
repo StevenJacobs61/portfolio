@@ -12,7 +12,7 @@ export default function SubmitBtn() {
     rounded-full outline-none transition-all
     w-[8rem] focus:scale-110 hover:bg-gray-950
     hover:scale-110 cursor-pointer active:scale-105
-    disabled:bg-opacity-65'
+    disabled:bg-opacity-65 dark:bg-white dark:bg-opacity-10'
     disabled={pending}
     >{
         pending ? <div className='h-5 w-5 animate-spin rounded-full
