@@ -20,7 +20,6 @@ interface ExperienceItem {
   description: string;
 }
 
-// ...
 
 function ExperienceItem({ item }: { item: ExperienceItem }) {
 

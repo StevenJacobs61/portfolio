@@ -45,7 +45,7 @@ export default function Intro() {
             sm:text-4xl'
             initial={{opacity: 0, y: 100}}
             animate={{opacity: 1, y: 0}}>
-            <span className="font-bold">Hello, I'm Steven.</span> I'm a{" "}
+            <span className="font-bold">Hello, I&apos;m Steven.</span> I&apos;m a{" "}
             <span className="font-bold">full-stack developer</span> with{" "}
             <span className="font-bold">3 years</span> of experience. I enjoy
             building <span className="italic">sites & apps</span>. My focus is{" "}
