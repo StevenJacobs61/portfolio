@@ -22,7 +22,7 @@ export default function Project({
             ref={ref}
             style={{
             opacity: opacityProgress,
-            scale: scaleProgress
+            scale: scaleProgress 
         }}
             className='mb-3 sm:mb-8 last-mb-0 group cursor-pointer'>
             <section
