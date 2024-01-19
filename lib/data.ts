@@ -111,6 +111,7 @@ export const skillsData = [
   "Redux",
   "GraphQL",
   "Express",
+  "Solidity",
   "Python",
   "Django",
   "Framer Motion",
