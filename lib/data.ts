@@ -5,6 +5,7 @@ import { LuGraduationCap } from "react-icons/lu";
 import corpcommentImg from "@/public/corpcomment.png";
 import rmtdevImg from "@/public/rmtdev.png";
 import wordanalyticsImg from "@/public/wordanalytics.png";
+import { MdOutlineImportantDevices } from "react-icons/md";
 
 export const links = [
   {
@@ -36,71 +37,80 @@ export const links = [
 export const experiencesData = [
   {
     title: "Graduated bootcamp",
-    location: "Miami, FL",
+    location: "London, UK",
     description:
-      "I graduated after 6 months of studying. I immediately found a job as a front-end developer.",
+      "I graduated after 6 months of studying. I immediately found a role as a front-end developer.",
     icon: React.createElement(LuGraduationCap),
-    date: "2019",
+    date: "2021",
   },
   {
     title: "Front-End Developer",
-    location: "Orlando, FL",
+    location: "London, UK",
     description:
-      "I worked as a front-end developer for 2 years in 1 job and 1 year in another job. I also upskilled to the full stack.",
+      "I worked as a front-end developer for 1 year, creating a web3 recruitment platform. I also upskilled to the full stack.",
     icon: React.createElement(CgWorkAlt),
-    date: "2019 - 2021",
+    date: "2021-2022",
   },
   {
     title: "Full-Stack Developer",
-    location: "Houston, TX",
+    location: "Brighton, UK",
     description:
-      "I'm now a full-stack developer working as a freelancer. My stack includes React, Next.js, TypeScript, Tailwind, Prisma and MongoDB. I'm open to full-time opportunities.",
-    icon: React.createElement(FaReact),
-    date: "2021 - present",
-  },
+      "I spent 1 year as a full-stack developer working as a freelancer. My stack included React, Next.js, TypeScript, Tailwind, Node.js, and MongoDB.",
+      date: "2022-2023",
+      icon: React.createElement(FaReact),
+    },
+    {
+      title: "Full-Stack Developer",
+      location: "London, UK",
+      description:
+      "I currently work as a full-stack developer, using mainly React and Java. I have greatly improved my Typescript, React.js and Java skills. I am also open to new opportunities.",
+      date: "2023-Present",
+      icon: React.createElement(MdOutlineImportantDevices),
+    },
 ] as const;
 
 export const projectsData = [
   {
-    title: "CorpComment",
+    title: "Burger Box",
     description:
-      "I worked as a full-stack developer on this startup project for 2 years. Users can give public feedback to companies.",
-    tags: ["React", "Next.js", "MongoDB", "Tailwind", "Prisma"],
+      "I worked as a full-stack developer on this startup project. It is an app which replaces the use of middleware such as Deliveroo.",
+    tags: ["React", "Next.js","Node.js", "MongoDB", "ePOS", "css"],
     imageUrl: corpcommentImg,
   },
   {
-    title: "rmtDev",
+    title: "Blockarch.io",
     description:
-      "Job board for remote developer jobs. I was the front-end developer. It has features like filtering, sorting and pagination.",
-    tags: ["React", "TypeScript", "Next.js", "Tailwind", "Redux"],
+      "Full-stack app which provides consultation to web3 startups, offering expert insights into the optimal technology for their project.",
+    tags: ["React", "Java", "OOP", "PostgreSQL", "SCSS"],
     imageUrl: rmtdevImg,
   },
   {
-    title: "Word Analytics",
+    title: "NFT Platform",
     description:
-      "A public web app for quick analytics on text. It shows word count, character count and social media post limits.",
-    tags: ["React", "Next.js", "SQL", "Tailwind", "Framer"],
+      "An NFT hosting platform to showcase artworks, mint collectibles and offer exclusive content.",
+    tags: ["React", "Node.js", "Ethers.js", "Solidity", "CSS"],
     imageUrl: wordanalyticsImg,
   },
 ] as const;
 
 export const skillsData = [
-  "HTML",
-  "CSS",
   "JavaScript",
   "TypeScript",
   "React",
   "Next.js",
+  "HTML",
+  "CSS",
+  "SCSS",
   "Node.js",
   "Git",
   "Tailwind",
-  "Prisma",
+  "Java",
+  "Spring",
+  "PostgreSQL",
   "MongoDB",
   "Redux",
   "GraphQL",
-  "Apollo",
   "Express",
-  "PostgreSQL",
   "Python",
   "Django",
   "Framer Motion",
