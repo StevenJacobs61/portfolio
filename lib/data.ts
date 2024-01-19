@@ -60,10 +60,10 @@ export const experiencesData = [
       icon: React.createElement(FaReact),
     },
     {
-      title: "Full-Stack Developer",
+      title: "Full-Stack Developer & Tutor",
       location: "London, UK",
       description:
-      "I currently work as a full-stack developer, using mainly React and Java. I have greatly improved my Typescript, React.js and Java skills. I am also open to new opportunities.",
+      "I currently work as a full-stack developer using mainly React and Java. I also teach at a programming bootcamp in the evenings. I have greatly improved my Typescript, React and Java skills. I am open to new opportunities.",
       date: "2023-Present",
       icon: React.createElement(MdOutlineImportantDevices),
     },

@@ -21,7 +21,7 @@ export default function About() {
             After graduating with a degree in{" "}
             <span className="font-medium">Economics{" "}</span>and working in tech investment for several years, I decided to pursue my
             passion for programming. I enrolled in a coding bootcamp and learned{" "}
-            <span className="font-medium">full-stack web development</span>.{" "}
+            <span className="font-medium">full-stack web development</span>.{" "}<br/>
             <span className="italic">My favorite part of programming</span> is the
             problem-solving aspect. I <span className="underline">love</span> the
             feeling of finally figuring out and evolving a solution to a problem. My core stack
@@ -30,7 +30,7 @@ export default function About() {
             React.js, Node.js, Java
             </span>
             . I am also familiar and comfortable with TypeScript, SQL & NoSQL. I am <span className='font-medium'>always</span> looking to
-            learn new technologies. I am currently looking for a{" "}
+            learn new technologies. <br/> I also teach programming as an instructor specialist at a coding bootcamp. I am currently looking for a{" "}
             <span className="font-medium">full-time position</span> as a software
             developer.
         </p>
