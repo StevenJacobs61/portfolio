@@ -8,7 +8,7 @@ import React, { useRef } from 'react'
 type ProjectProps = typeof projectsData[number];
 
 export default function Project({
-    title, description, tags, imageUrl
+    title, description, tags, imageUrl, link,
 } : ProjectProps){
     const ref = useRef<HTMLDivElement>(null);
     const {scrollYProgress} = useScroll({
@@ -23,7 +23,8 @@ export default function Project({
             style={{
             opacity: opacityProgress,
             scale: scaleProgress 
-        }}
+            }}
+            onClick={()=> window.location.href = link}
             className='mb-3 sm:mb-8 last-mb-0 group cursor-pointer'>
             <section
                 className='bg-gray-100 max-w-[42rem] border

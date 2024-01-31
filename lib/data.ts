@@ -2,9 +2,9 @@ import React from "react";
 import { CgWorkAlt } from "react-icons/cg";
 import { FaReact } from "react-icons/fa";
 import { LuGraduationCap } from "react-icons/lu";
-import corpcommentImg from "@/public/corpcomment.png";
-import rmtdevImg from "@/public/rmtdev.png";
-import wordanalyticsImg from "@/public/wordanalytics.png";
+import burgerBoxImg from "@/public/burgerBoxScreenShot.png";
+import blockarchImg from "@/public/bass.png";
+import badpolesImg from "@/public/bpss.png";
 import { MdOutlineImportantDevices } from "react-icons/md";
 
 export const links = [
@@ -71,25 +71,28 @@ export const experiencesData = [
 
 export const projectsData = [
   {
-    title: "Burger Box",
+    title: "Burgerbox UK",
     description:
       "I worked as a full-stack developer on this startup project. It is an app which replaces the use of middleware such as Deliveroo.",
     tags: ["React", "Next.js","Node.js", "MongoDB", "ePOS", "css"],
-    imageUrl: corpcommentImg,
+    imageUrl: burgerBoxImg,
+    link: 'https://burgerbox-uk.com'
+  },
+  {
+    title: "Badpoles NFT",
+    description:
+      "An NFT hosting platform to showcase artworks, mint collectibles and offer exclusive content.",
+    tags: ["React", "Node.js", "Ethers.js", "Solidity", "CSS"],
+    imageUrl: badpolesImg,
+    link: 'https://bad-poles.vercel.app/'
   },
   {
     title: "Blockarch.io",
     description:
       "Full-stack app which provides consultation to web3 startups, offering expert insights into the optimal technology for their project.",
     tags: ["React", "Java", "OOP", "PostgreSQL", "SCSS"],
-    imageUrl: rmtdevImg,
-  },
-  {
-    title: "NFT Platform",
-    description:
-      "An NFT hosting platform to showcase artworks, mint collectibles and offer exclusive content.",
-    tags: ["React", "Node.js", "Ethers.js", "Solidity", "CSS"],
-    imageUrl: wordanalyticsImg,
+    imageUrl: blockarchImg,
+    link: 'https://blockarch.io'
   },
 ] as const;
 
