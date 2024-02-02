@@ -74,7 +74,7 @@ export const projectsData = [
   {
     title: "Chainwork",
     description:
-      "I worked as a UX/UI designer and front-end developer. It is a decentralised working environment in the metaverse.",
+      "A Web3 decentralised working environment in the metaverse. I worked as a UX/UI designer and front-end developer.",
     tags: ["Figma", "React", "Next.js", "Web3", "css"],
     imageUrl: chainWorkImg,
     link: 'https://chainwork-redesign.vercel.app/'
@@ -82,7 +82,7 @@ export const projectsData = [
   {
     title: "Burgerbox UK",
     description:
-      "I worked as a full-stack developer on this startup project. It is an app which replaces the use of middleware such as Deliveroo.",
+      "Full-stack app which eplaces the use of middleware such as Deliveroo. I worked as a full-stack developer on this startup project.",
     tags: ["React", "Next.js","Node.js", "MongoDB", "ePOS", "css"],
     imageUrl: burgerBoxImg,
     link: 'https://burgerbox-uk.com'
@@ -91,7 +91,7 @@ export const projectsData = [
     title: "Blockarch.io",
     description:
       "Full-stack app which provides consultation to web3 startups, offering expert insights into the optimal technology for their project.",
-    tags: ["React", "Java", "OOP", "PostgreSQL", "SCSS"],
+    tags: ["React", "Java", "OOP", "PostgreSQL", "Docker", "SCSS"],
     imageUrl: blockarchImg,
     link: 'https://blockarch.io'
   },
