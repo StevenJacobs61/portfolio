@@ -82,7 +82,7 @@ export const projectsData = [
   {
     title: "Burgerbox UK",
     description:
-      "Full-stack management app which replaces the use of middleware such as Deliveroo.",
+      "I worked as a full-stack developer for this management app which replaces the use of middleware such as Deliveroo.",
     tags: ["React", "Next.js","Node.js", "MongoDB", "ePOS", "css"],
     imageUrl: burgerBoxImg,
     link: 'https://burgerbox-uk.com'
