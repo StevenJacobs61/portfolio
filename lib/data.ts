@@ -3,7 +3,7 @@ import { CgWorkAlt } from "react-icons/cg";
 import { FaReact } from "react-icons/fa";
 import { LuGraduationCap } from "react-icons/lu";
 import burgerBoxImg from "@/public/burgerBoxScreenShot.png";
-import blockarchImg from "@/public/bass.png";
+import blockarchImg from "@/public/bass1.png";
 import badpolesImg from "@/public/bpss.png";
 import chainWorkImg from "@/public/cwss.png";
 import { MdOutlineImportantDevices } from "react-icons/md";
@@ -57,43 +57,43 @@ export const experiencesData = [
     location: "Brighton, UK",
     description:
       "I spent 1 year as a full-stack developer working as a freelancer. My stack included React, Next.js, TypeScript, Tailwind, Node.js, and MongoDB.",
-      date: "2022-2023",
-      icon: React.createElement(FaReact),
-    },
-    {
-      title: "Full-Stack Developer & Tutor",
-      location: "London, UK",
-      description:
+    date: "2022-2023",
+    icon: React.createElement(FaReact),
+  },
+  {
+    title: "Full-Stack Developer & Tutor",
+    location: "London, UK",
+    description:
       "I currently work as a full-stack developer using mainly React and Java. I also teach at a programming bootcamp in the evenings. I have greatly improved my Typescript, React and Java skills. I am open to new opportunities.",
-      date: "2023-Present",
-      icon: React.createElement(MdOutlineImportantDevices),
-    },
+    date: "2023-Present",
+    icon: React.createElement(MdOutlineImportantDevices),
+  },
 ] as const;
 
 export const projectsData = [
-  {
-    title: "Chainwork",
-    description:
-      "A Web3 decentralised working environment in the metaverse. I worked as a UX/UI designer and front-end developer.",
-    tags: ["Figma", "React", "Next.js", "Web3", "css"],
-    imageUrl: chainWorkImg,
-    link: 'https://chainwork-redesign.vercel.app/'
-  },
-  {
-    title: "Burgerbox UK",
-    description:
-      "I worked as a full-stack developer for this management app which replaces the use of middleware such as Deliveroo.",
-    tags: ["React", "Next.js","Node.js", "MongoDB", "ePOS", "css"],
-    imageUrl: burgerBoxImg,
-    link: 'https://burgerbox-uk.com'
-  },
   {
     title: "Blockarch.io",
     description:
       "Full-stack app which provides consultation to web3 startups, offering expert insights into the optimal technology for their project.",
     tags: ["React", "Java", "OOP", "PostgreSQL", "Docker", "SCSS"],
     imageUrl: blockarchImg,
-    link: 'https://blockarch.io'
+    link: "https://blockarch.io",
+  },
+  {
+    title: "Burgerbox UK",
+    description:
+      "I worked as a full-stack developer for this management app which replaces the use of middleware such as Deliveroo.",
+    tags: ["React", "Next.js", "Node.js", "MongoDB", "ePOS", "css"],
+    imageUrl: burgerBoxImg,
+    link: "https://burgerbox-uk.com",
+  },
+  {
+    title: "Chainwork",
+    description:
+      "A Web3 decentralised working environment in the metaverse. I worked as a UX/UI designer and front-end developer.",
+    tags: ["Figma", "React", "Next.js", "Web3", "css"],
+    imageUrl: chainWorkImg,
+    link: "https://chainwork-redesign.vercel.app/",
   },
   {
     title: "Badpoles NFT",
@@ -101,7 +101,7 @@ export const projectsData = [
       "An NFT hosting platform to showcase artworks, mint collectibles and offer exclusive content.",
     tags: ["React", "Node.js", "Ethers.js", "Solidity", "CSS"],
     imageUrl: badpolesImg,
-    link: 'https://bad-poles.vercel.app/'
+    link: "https://bad-poles.vercel.app/",
   },
 ] as const;
 
