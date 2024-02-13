@@ -74,7 +74,7 @@ export const projectsData = [
   {
     title: "Blockarch.io",
     description:
-      "Full-stack app which provides consultation to web3 startups, offering expert insights into the optimal technology for their project.",
+      "Full-stack AI-powered matching tool for web3 startups, offering expert insights into the optimal technology for their project.",
     tags: ["React", "Java", "OOP", "PostgreSQL", "Docker", "SCSS"],
     imageUrl: blockarchImg,
     link: "https://blockarch.io",
