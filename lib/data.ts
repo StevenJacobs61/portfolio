@@ -7,6 +7,8 @@ import blockarchImg from "@/public/bass1.png";
 import badpolesImg from "@/public/bpss.png";
 import chainWorkImg from "@/public/cwss.png";
 import { MdOutlineImportantDevices } from "react-icons/md";
+import { LiaChalkboardTeacherSolid } from "react-icons/lia";
+import { LuNetwork } from "react-icons/lu";
 
 export const links = [
   {
@@ -56,17 +58,33 @@ export const experiencesData = [
     title: "Full-Stack Developer",
     location: "Brighton, UK",
     description:
-      "I spent 1 year as a full-stack developer working as a freelancer. My stack included React, Next.js, TypeScript, Tailwind, Node.js, and MongoDB.",
-    date: "2022-2023",
+      "I spent 1 year as a full-stack developer founding AppStarter. My stack included React, Next.js, TypeScript, Tailwind, Node.js, and MongoDB.",
+    date: "2021-2023",
     icon: React.createElement(FaReact),
   },
   {
-    title: "Full-Stack Developer & Tutor",
+    title: "Full-Stack Developer",
     location: "London, UK",
     description:
-      "I currently work as a full-stack developer using mainly React and Java. I also teach at a programming bootcamp in the evenings. I have greatly improved my Typescript, React and Java skills. I am open to new opportunities.",
-    date: "2023-Present",
+      "I co-founded Blockarch, developing an AI blockchain application. I greatly improved my Java and SQL knowledge here.",
+    date: "2022-2023",
     icon: React.createElement(MdOutlineImportantDevices),
+  },
+  {
+    title: "Prgramming Tutor",
+    location: "London, UK",
+    description:
+      "I picked up an evening teaching role at a programming bootcamp. I re-discovered my passion for mentoring.",
+    date: "2023-Present",
+    icon: React.createElement(LiaChalkboardTeacherSolid),
+  },
+  {
+    title: "Full-stack Developer",
+    location: "London, UK",
+    description:
+      "I work full time in process optimisation, building custom applications and API integrations for large clients; improving efficiency, revenue and saving costs. I am also open to new opportunities.",
+    date: "2023-Present",
+    icon: React.createElement(LuNetwork),
   },
 ] as const;
 
