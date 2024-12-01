@@ -22,8 +22,8 @@ export default function About() {
         After graduating with a degree in{" "}
         <span className="font-medium">Economics </span>and working in tech
         investment for several years, I decided to pursue my passion for
-        programming. I enrolled in a Harvard's CS50 and a coding bootcamp to
-        learned{" "}
+        programming. I enrolled in a Harvard&apos;s CS50 and a coding bootcamp
+        to learned{" "}
         <span className="font-medium">
           programming and full-stack web development
         </span>
